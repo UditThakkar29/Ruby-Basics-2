@@ -58,7 +58,7 @@ end
 class Hand
   include Week
   $year = 10
-
+  puts @year.is_a?Integer
   def no_of_months
     puts "Today " + Week::First_day
     num = $years.to_i * 12
